@@ -1,3 +1,4 @@
+import { Injectable } from '@nestjs/common';
 import { readFile, writeFile } from 'fs/promises';
 
 export interface Task {
@@ -5,6 +6,7 @@ export interface Task {
   content: string;
 }
 
+@Injectable()
 export class TasksRepository {
   private readonly filePath = 'tasks.json';
 

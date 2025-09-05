@@ -28,3 +28,11 @@ Itu artinya pantau commit nya pada resipotery untuk melihat langsung perubahaany
   - buat tasks.repositery.ts di dalam folder ./src/tasks
   - buat file json pada root dengan nama `tasks.json` sebagai database (copas saja dari file json ini)
   - buat method nya sesuai dengan tasks.repositery.ts
+
+7. Membuat service dan implementasi nya:
+  - buat service dengan `nest generate service tasks/tasks --flat`
+  - terapkan service seperti pada `tasks.service.ts`
+  - tambahkan `@injectable()` pada `tasks.repositery` 
+  - implementasikan service di controller
+  - tambahkan `TaskRepository` di providers `tasks.module`
+  - buat mock file, `mocks/tasks.mock.ts`, untuk jest lalu tambahkan service dan repository di kedua file spec milik controller dan service
