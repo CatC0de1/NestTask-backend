@@ -1,4 +1,5 @@
 import { Controller, Get, Post, Body, Param } from '@nestjs/common';
+import { CreateTaskDto } from './dtos/crate-task.dto';
 
 @Controller('tasks')
 export class TasksController {
@@ -8,7 +9,7 @@ export class TasksController {
   }
 
   @Post()
-  createTask(@Body() body: string) {
+  createTask(@Body() body: CreateTaskDto) {
     return body;
   }
 

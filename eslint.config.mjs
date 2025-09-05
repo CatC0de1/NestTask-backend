@@ -24,6 +24,7 @@ export default tseslint.config(
       },
     },
   },
+  // global rules
   {
     rules: {
       '@typescript-eslint/no-explicit-any': 'off',
@@ -31,4 +32,11 @@ export default tseslint.config(
       '@typescript-eslint/no-unsafe-argument': 'warn'
     },
   },
+  // specific overrides
+  {
+    files: ['src/tasks/dtos/*.ts'],
+    rules: {
+      '@typescript-eslint/no-unsafe-assigment': 'off',
+    },
+  }
 );

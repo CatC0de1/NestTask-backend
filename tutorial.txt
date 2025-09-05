@@ -16,3 +16,10 @@ Itu artinya pantau commit nya pada resipotery untuk melihat langsung perubahaany
 
 4. Mendapatkan data yang dikirim dalam request:
   - ubah tasks.controller untuk menambahkan Body dan Param dari nestjs/common.
+
+5. Menambahkan data validator dengan validasi pipe:
+  - ubah main.ts untuk menambahkan global validation (hanya untuk contoh validasi), yg artinya tiap kali request terdapat validasi
+  - install class-validator dan class-transformer dengan `yarn add class-validator class-transformer`
+  - buat file dengan nama /dtos/create-task.dto.ts di folder tasks lalu tambahkan validasi seperti contoh.
+  - terapkan validator yang dibuat di module untuk method Post sesuai contoh
+  - untuk penyesuaian eslint `eslint.config.mjs`, tambahkan override khusus jika cukup menganggu
