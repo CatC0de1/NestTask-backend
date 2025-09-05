@@ -1,10 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { readFile, writeFile } from 'fs/promises';
-
-export interface Task {
-  id: number;
-  content: string;
-}
+import { Task } from './types/task';
 
 @Injectable()
 export class TasksRepository {

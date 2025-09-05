@@ -39,3 +39,7 @@ Itu artinya pantau commit nya pada resipotery untuk melihat langsung perubahaany
 
 8. Implementasi error handler:
   - dalam controller, tambahkan `NotFoundException` untuk error handler. error lain bisa dilihat di node_modules atau dokumentasi
+
+9. Refactor tipe data:
+  - pindahkan tipe data `Task` di `types/task.d.ts` serta ubah semua import nya
+  - tambahkan tipe data pada method di controller supaya rapi
