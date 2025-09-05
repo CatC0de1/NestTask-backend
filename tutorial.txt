@@ -10,3 +10,6 @@ Itu artinya pantau commit nya pada resipotery untuk melihat langsung perubahaany
   - Jalankan `nest generate controller tasks/tasks --flat` (task/task berarti directory nya, flat artinya tidak membuat folder baru untuk controller dalam folder tasks, maksudnya setara dengan tasks.module)
   - nest-cli otomatis membuat controller, unit testing, beserta import controller pada module
   
+3. Mendefinisikan route di controller:
+  - Ubah tasks.controller.ts dengan tiga route, menampilkan seluruh tasks (get), membuat task (post), menampilkan task (get)
+  - Cara ini lebih efektif (menambahkan decorator 'tasks' di controller) supaya tidak mengetik /tasks terus pada method nya
