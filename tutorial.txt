@@ -1,0 +1,7 @@
+Ini adalah tutorial langkah per langkah untuk pembuatan server nest-task dalam satuan commit. 
+Itu artinya pantau commit nya pada resipotery untuk melihat langsung perubahaanya sesuai dengan tutorial.txt
+
+1. Membuat file module dengan Nest-CLI:
+  - Hapus semua file dalam source kecuali main.ts lalu ubah main.ts (karena akan memulai dari awal)
+  - Jalankan pada terminal `nest generate module tasks` untuk membuat folder dan module tasks (untuk seterusnya akan sering menggunakan nest-cli)
+  - Lalu gantikan AppModule pada main.ts dengan TasksModule

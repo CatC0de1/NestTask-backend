@@ -1,2 +1,0 @@
-Ini adalah tutorial langkah per langkah untuk pembuatan server nest-task dalam satuan commit. 
-Itu artinya pantau commit nya pada resipotery untuk melihat langsung perubahaanya sesuai dengan notes.txt
