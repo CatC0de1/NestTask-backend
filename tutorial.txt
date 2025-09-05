@@ -5,3 +5,8 @@ Itu artinya pantau commit nya pada resipotery untuk melihat langsung perubahaany
   - Hapus semua file dalam source kecuali main.ts lalu ubah main.ts (karena akan memulai dari awal)
   - Jalankan pada terminal `nest generate module tasks` untuk membuat folder dan module tasks (untuk seterusnya akan sering menggunakan nest-cli)
   - Lalu gantikan AppModule pada main.ts dengan TasksModule
+
+2. Membuat controller dengan Nest-CLI:
+  - Jalankan `nest generate controller tasks/tasks --flat` (task/task berarti directory nya, flat artinya tidak membuat folder baru untuk controller dalam folder tasks, maksudnya setara dengan tasks.module)
+  - nest-cli otomatis membuat controller, unit testing, beserta import controller pada module
+  
