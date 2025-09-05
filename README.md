@@ -1,3 +1,5 @@
+# Nest Task
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
@@ -24,6 +26,24 @@
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+
+This repository contain source code of todo app backend. There is a feature on this app: 
+- using `JSON` as database.
+- user can see all task in 
+  ```HTTP
+  GET localhost:3000/tasks
+  ```
+- user can see specific task using id (number) in
+  ```HTTP
+  GET localhost:3000/tasks/:id
+  ```
+- user can create new task (content must string and at least 3 chars long) in
+  ```HTTP
+  POST localhost:3000/tasks
+  ```
+
+Soon this project will expand to production and more feature in another branch.
+
 
 ## Project setup
 
@@ -96,3 +116,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+## Note
+
+I left `notes.txt` on this root project. That txt contain all tutorial of build this app using Indonesian Language. Recommended to read that tutorial in commit list.
