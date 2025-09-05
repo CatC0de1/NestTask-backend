@@ -23,3 +23,8 @@ Itu artinya pantau commit nya pada resipotery untuk melihat langsung perubahaany
   - buat file dengan nama /dtos/create-task.dto.ts di folder tasks lalu tambahkan validasi seperti contoh.
   - terapkan validator yang dibuat di module untuk method Post sesuai contoh
   - untuk penyesuaian eslint `eslint.config.mjs`, tambahkan override khusus jika cukup menganggu
+
+6. Membuat repositery dan method:
+  - buat tasks.repositery.ts di dalam folder ./src/tasks
+  - buat file json pada root dengan nama `tasks.json` sebagai database (copas saja dari file json ini)
+  - buat method nya sesuai dengan tasks.repositery.ts
