@@ -36,3 +36,6 @@ Itu artinya pantau commit nya pada resipotery untuk melihat langsung perubahaany
   - implementasikan service di controller
   - tambahkan `TaskRepository` di providers `tasks.module`
   - buat mock file, `mocks/tasks.mock.ts`, untuk jest lalu tambahkan service dan repository di kedua file spec milik controller dan service
+
+8. Implementasi error handler:
+  - dalam controller, tambahkan `NotFoundException` untuk error handler. error lain bisa dilihat di node_modules atau dokumentasi
