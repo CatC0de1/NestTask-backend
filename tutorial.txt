@@ -13,3 +13,6 @@ Itu artinya pantau commit nya pada resipotery untuk melihat langsung perubahaany
 3. Mendefinisikan route di controller:
   - Ubah tasks.controller.ts dengan tiga route, menampilkan seluruh tasks (get), membuat task (post), menampilkan task (get)
   - Cara ini lebih efektif (menambahkan decorator 'tasks' di controller) supaya tidak mengetik /tasks terus pada method nya
+
+4. Mendapatkan data yang dikirim dalam request:
+  - ubah tasks.controller untuk menambahkan Body dan Param dari nestjs/common.
